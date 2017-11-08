@@ -1,68 +1,38 @@
-body {
-color: #333;
+html,
+body,
+#map {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px
 }
-
-body, input, button {
-line-height: 1.4;
-font: 13px Helvetica,arial,freesans,clean,sans-serif;
+.get-map-val .form-control {
+    padding: 6px;
+    margin-right: 22px;
+    width: 20%;
 }
-
-form {
-    width: calc(100% - 70px);
-    margin-left: 0;
+.get-map-val {
+	text-align: center;
+	margin: 20px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
 }
-
-fieldset {
-    width: 90%;
-    margin-top: 20px;
-    float: left;
-    margin-bottom: 7px;
+#address-input {
+	width: 350px;
+	padding: 10px;
+	margin: auto;
+	display: block;
+	position: absolute;
+	left: 50% !important;
+	margin-left: -175px;
+	margin-top: 60px;
 }
-
-fieldset strong { display: block; margin: 0.5em 0 0em; }
-fieldset input { width: 95%; }
-
-ul span { color: #999; }
-
-a {
-color: #4183C4;
-text-decoration: none;
-}
-
-#examples a {
-text-decoration: underline;
-}
-
-#geocomplete {
-    width: calc(100% - 115px);
-    float: left;
-    padding: 0px 10px;
-    border: 1px solid #000;
-    height: 48px;
-}
-
-.map_canvas { 
-width: 600px; 
-height: 400px; 
-margin: 10px 20px 10px 0;
-}
-
-#multiple li { 
-cursor: pointer; 
-text-decoration: underline; 
-}
-.wrapper {
-width: 600px;
-margin: 0 auto;
-}
-input#find {
-    float: left;
-    width: 89px;
-    background-color: #000;
-    color: #FFF;
-    border: 0px solid;
-    padding: 0;
-    text-transform: uppercase;
-    height: 50px;
-    line-height: 48px;
+.get-map-val label {
+	background-color: #fff;
+	padding: 6px 15px;
+	margin-right: -4px;
+	text-transform: uppercase;
 }
